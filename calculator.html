@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICTAK |CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--nav bar starts here  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger myFont2">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <a class="navbar-brand" href="#">
+      <img src="images/calc.jpg" width="30" height="30" class="d-inline-block align-top" alt="">Calculator App</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03"> </div>
+  </nav>
+  <br>
+<!-- navbar ends here -->
+<!-- form starts here -->
+<form>
+   <div class="container col-md-8" style="padding: left 20px;">
+        <div class="row col-md-6" style="padding: 10px;">
+            <div class="col-md-8 myMargin myBorder">
+              <div class="container" style="padding: 10px 10px;">
+               
+                    <div class="form-group col-sm-12" style="margin-top: 25px;">
+                        <input type="number" class="border-primary" >
+                        <label for="input1">Input 1</label>
+                    </div>
+                    <div class="form-group col-sm-12">
+                         <input type="number" class="border-primary">
+                        <label for="input2">Input 2</label>
+                    </div>
+                   <div class="form-group col-sm-12">
+                      <input type="number" class="border-danger">
+                      <label for="answer">Answer</label>
+                    </div>
+                    <!-- creating number buttons  -->
+                    <div class="form-group col-sm-12">
+                      <div class="row" style="margin: 3px;">
+                       <div class="col-sm-2" style="margin: 3px;"> <button type="submit" class="btn btn-danger btn-md">7 </button></div>
+                       <div class="col-sm-2" style="margin: 3px;"> <button type="submit" class="btn btn-warning btn-md">8 </button></div>
+                       <div class="col-sm-2" style="margin: 3px;"> <button type="submit" class="btn btn-secondary btn-md">9 </button></div>
+                       <div class="col-sm-2" style="margin: 3px;"> <button type="submit" class="btn btn-success btn-md">+</button></div>
+                      </div>
+                      <div class="row" style="margin: 3px;">
+                        <div  class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-warning btn-md">4 </button></div>
+                       <div  class="col-sm-2" style="margin: 3px;"> <button type="submit" class="btn btn-secondary btn-md">5</button></div>
+                        <div  class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-success btn-md">6 </button></div>
+                        <div  class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-primary btn-md">-</button></div>
+                    </div>
+                    <div class="row" style="margin: 3px;">
+                       <div  class="col-sm-2" style="margin: 3px;"> <button type="submit" class="btn btn-secondary btn-md">1 </button></div>
+                        <div  class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-success btn-md">2 </button></div>
+                        <div  class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-primary btn-md">3 </button></div>
+                        <div  class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-warning btn-md">x</button></div>
+                      </div>
+                      <div class="row" style="margin: 3px;">
+                        <div class="col-sm-2" style="margin: 3px; "><button type="reset" class="btn btn-success btn-md"><-</button></div>
+                        <div class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-primary btn-md">0</button></div>
+                        <div class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-warning btn-md">ans</button></div>
+                        <div class="col-sm-2" style="margin: 3px;"><button type="submit" class="btn btn-danger btn-md">%</button></div>
+                      </div>
+                </div>
+                <!-- number buttons ends here -->
+            </div>
+       </div>
+    </div>
+  </div> 
+ </form>
+ <!-- end of form -->
+</body>
+</html>

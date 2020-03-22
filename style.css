@@ -1,0 +1,13 @@
+.myFont2{
+       font-size: 25px;
+        color:goldenrod;
+}
+.myBorder{
+    border: solid 5px blue;
+}
+.myMargin{
+    margin: 5px;
+}
+.firstName{
+    border: dotted red;
+}
